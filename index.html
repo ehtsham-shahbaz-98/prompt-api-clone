@@ -1,0 +1,886 @@
+<!DOCTYPE html><html lang="en" class=" "><head>
+<title>Prompt API - Hassle-free API marketplace</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Highly curated API marketplace with a focus on reliability and scalability. Allows software developers building the next big thing much easier and faster.">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="css/css.css">
+<meta name="google-signin-client_id" content="918427652626-8890ujna0olmp3mpuoms502b2uul2vug.apps.googleusercontent.com">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@promptapi">
+<meta name="twitter:creator" content="@promptapi">
+<meta property="og:title" content="Prompt API | Hassle-free API marketplace">
+<meta property="og:description" content="API marketplace and ready to run app backends for your mobile app and website.">
+<meta property="og:image" content="images/square_large_bg.png">
+
+<link rel="stylesheet" href="css/all.min.css">
+
+<link rel="stylesheet" href="css/theme.css">
+<link rel="stylesheet" href="css/vendors.css">
+
+<script type="text/javascript" async src="js/analytics.js"></script><script type="text/javascript" async src="js_1"></script><script async src="js/uwt.js"></script><script src="201336167864085" async></script><script async src="js/fbevents.js"></script><script type="text/javascript" async src="js/analytics.js"></script><script src="cb%3Dgapi.loaded_1" async></script><script src="cb%3Dgapi.loaded_0" async></script><script async src="js/gtm.js"></script><script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MCCVJ4C');</script>
+
+<link rel="canonical" href="https://promptapi.com">
+<script async src="js/api.js"></script><script type="text/javascript" async src="js/fender_analytics.d05d980ea736d6aa9a27.js"></script><script type="text/javascript" async src="js/sharedUtils.16d936f15fdc35eb7f71.js"></script><script type="text/javascript" async src="js/static.d7bcc4863e766e4f935c.js"></script><script type="text/javascript" async src="js/sentry.957bb8d322d8fad44127.js"></script><script type="text/javascript" async src="js/vendors~signup_forms~signup_forms_new.81f98c9ceab9338656e8.js"></script><script type="text/javascript" async src="js/signup_forms~signup_forms_new.a6ad20d71859acd235af.js"></script><script type="text/javascript" async src="js/signup_forms_new.9d90d4a52f738253b031.js"></script><style id="kl-custom-fonts">
+@import 'css/css2.css';
+
+.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1.kl-private-quill-wrapper-Lkqws1 .ql-font-inter {font-family: 'Inter'}
+</style></head>
+<body id="index2" data-aos-easing="ease" data-aos-duration="650" data-aos-delay="0">
+<noscript><iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<header id="header" class="header right-aligned-navbar scrolled">
+<div class="header-section">
+<div id="logoAndNav" class="container mt-lg-n2">
+
+<nav class="js-mega-menu navbar navbar-expand-lg">
+<div class="navbar-nav-wrap">
+
+<a class="navbar-brand navbar-nav-wrap-brand" href="/" aria-label="Prompt API">
+<img src="images/logo.png" alt="Prompt API | Hassle Free API Marketplace">
+</a>
+
+
+<div class="navbar-nav-wrap-content">
+
+<div class="d-inline-block ml-auto">
+<button id="signInButton" type="button" class="btn btn-sm btn-primary d-none d-lg-inline-block transition-3d-hover js-hs-unfold-invoker" data-hs-unfold-options="{
+                  &quot;target&quot;: &quot;#sidebarContent&quot;,
+                  &quot;type&quot;: &quot;css-animation&quot;,
+                  &quot;animationIn&quot;: &quot;fadeInRight&quot;,
+                  &quot;animationOut&quot;: &quot;fadeOutRight&quot;,
+                  &quot;hasOverlay&quot;: &quot;rgba(55, 125, 255, 0.1)&quot;,
+                  &quot;smartPositionOff&quot;: true
+                }" data-hs-unfold-target="#sidebarContent" data-hs-unfold-invoker>Sign In</button>
+<a class="js-hs-unfold-invoker btn btn-icon btn-xs btn-ghost-secondary d-lg-none" href="javascript:;" data-hs-unfold-options="{
+                    &quot;target&quot;: &quot;#sidebarContent&quot;,
+                    &quot;type&quot;: &quot;css-animation&quot;,
+                    &quot;animationIn&quot;: &quot;fadeInRight&quot;,
+                    &quot;animationOut&quot;: &quot;fadeOutRight&quot;,
+                    &quot;hasOverlay&quot;: &quot;rgba(55, 125, 255, 0.1)&quot;,
+                    &quot;smartPositionOff&quot;: true
+                  }" data-hs-unfold-target="#sidebarContent" data-hs-unfold-invoker>
+<i class="fas fa-user-circle"></i>
+</a>
+</div>
+
+</div>
+
+
+<button type="button" class="navbar-toggler navbar-nav-wrap-navbar-toggler btn btn-icon btn-sm rounded-circle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+<span class="navbar-toggler-default">
+<svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+<path fill="currentColor" d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"/>
+</svg>
+</span>
+<span class="navbar-toggler-toggled">
+<svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+<path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/>
+</svg>
+</span>
+</button>
+
+
+<div id="navBar" class="navbar-nav-wrap-navbar collapse navbar-collapse">
+<ul class="navbar-nav">
+<li class="navbar-nav-item">
+<a id="marketplaceMenu" class="nav-link header-nav-link" href="/marketplace">
+<i class="fa fa-th font-size-1 mr-1"></i>
+API Marketplace
+</a>
+</li>
+<li class="navbar-nav-item">
+<a id="blogMenu" class="nav-link header-nav-link" href="/blog">Blog</a>
+</li>
+<li class="navbar-nav-item mr-3">
+<a id="docsMenu" class="nav-link header-nav-link" href="/docs">Docs</a>
+</li>
+</ul>
+</div>
+
+</div>
+</nav>
+
+</div>
+</div>
+</header>
+
+
+<main id="content" role="main">
+
+<div class="container py-4 py-md-6 my-md-4 mb-xl-6 mt-xl-0">
+<div class="row justify-content-lg-between align-items-lg-center">
+<div class="col-sm-12 col-lg-6 mb-7 mb-lg-0 pr-5">
+<picture>
+<source class="img-fluid" srcset="images/hero6_2.webp" type="image/webp">
+<source class="img-fluid" srcset="images/hero6_2.jpg" type="image/jpeg">
+<img class="img-fluid" src="images/hero6_2.jpg" alt="API Marketplace">
+</picture>
+</div>
+<div class="col-md-12 col-sm-12 col-lg-6">
+<div class="mb-7">
+<h1 class="display-4 mb-3">
+Hassle-free <br> API Marketplace
+</h1>
+<p class="lead">Boost your app’s capabilities without worrying about scalability and stability.</p>
+</div>
+<div class="d-sm-flex align-items-sm-center flex-sm-wrap">
+<a class="btn btn-sm btn-primary d-none d-lg-inline-block transition-3d-hover" href="/marketplace">Learn More <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+<a class="btn btn-link" href="#signup-form" role="button">
+Sign Up Free
+<i class="fas fa-angle-right fa-sm ml-1"></i>
+</a>
+<div class="mx-2"></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="container space-bottom-lg-2 space-top-1 space-top-lg-2">
+
+<div class="w-md-80 text-center mx-md-auto mb-9">
+<h2>Editor's Picks</h2>
+<p>Supercharge your app with these ready to run backends and APIs.</p>
+</div>
+
+
+<div class="row mb-5">
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/adv_scraper-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/adv_scraper.png" alt="Advanced Scraper API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">Advanced Scraper API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Featured" title="Featured" width="16">
+</div>
+<small class="d-block text-dark">Web Tools APIs</small>
+<div class="text-muted justify-content small mt-1">
+Advanced web scraper API with rotating IPs (from 170+ countries), browser rendering and JS execution capabilities.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/bincheck-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/bincheck.png" alt="BIN Checker API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">BIN Checker API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Bestseller" title="Bestseller" width="16">
+</div>
+<small class="d-block text-dark">Finance APIs</small>
+<div class="text-muted justify-content small mt-1">
+Checks and verifies BIN (Bank Identification Number).
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/scraper-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/scraper.png" alt="Scraper API (Lite Edition)">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">Scraper API (Lite Edition)</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Featured" title="Featured" width="16">
+</div>
+<small class="d-block text-dark">Web Tools APIs</small>
+<div class="text-muted justify-content small mt-1">
+Scrape websites bypassing rate limitations.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/app_store-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/app_store.png" alt="App Store API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">App Store API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Featured" title="Featured" width="16">
+</div>
+<small class="d-block text-dark">Content APIs</small>
+<div class="text-muted justify-content small mt-1">
+Unofficial API to scrape and parse the application data from the iTunes/Mac App Store.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/tiktok-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/tiktok.png" alt="TikTok API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">TikTok API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Featured" title="Featured" width="16">
+</div>
+<small class="d-block text-dark">Social Media APIs</small>
+<div class="text-muted justify-content small mt-1">
+Unofficial API for TikTok for fetching trending videos, user, video, music info and a lot more.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/whois-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/whois.png" alt="Whois API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">Whois API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Bestseller" title="Bestseller" width="16">
+</div>
+<small class="d-block text-dark">Web Tools APIs</small>
+<div class="text-muted justify-content small mt-1">
+API to perform a Whois query programmatically and get results in JSON format.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/resume_parser-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/resume_parser.png" alt="Resume Parser API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">Resume Parser API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Bestseller" title="Bestseller" width="16">
+</div>
+<small class="d-block text-dark">AI &amp; Machine Learning APIs</small>
+<div class="text-muted justify-content small mt-1">
+Parses any resume/CV into JSON text using Natural Language Processing (NLP) techniques.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/short_url-api">
+<div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/short_url.png" alt="URL Shortener API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">URL Shortener API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Bestseller" title="Bestseller" width="16">
+</div>
+<small class="d-block text-dark">Web Tools APIs</small>
+<div class="text-muted justify-content small mt-1">
+URL Shortener service with an API which provides extensive analytics backend.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 px-2 mb-3">
+<div class="card card-frame h-100">
+<a class="card-body" href="/marketplace/description/paraphraser-api">
+ <div class="media">
+<div class="avatar avatar-xs mt-1 mr-3">
+<img class="avatar-img" src="images/paraphraser.png" alt="Paraphraser API">
+</div>
+<div class="media-body">
+<div class="d-flex align-items-center">
+<span class="d-block text-dark font-weight-bold font-16-px">Paraphraser API</span>
+<img class="ml-2" src="fonts/top-vendor.svg" alt="Featured" title="Featured" width="16">
+</div>
+<small class="d-block text-dark">Text Processing APIs</small>
+<div class="text-muted justify-content small mt-1">
+Rewrite and enhance any sentence, paragraph, or article using AI, make it original content.
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+
+<div class="text-center">
+<a class="font-weight-bold" href="/marketplace">See all APIs <i class="fa fa-angle-right fa-sm ml-1"></i></a>
+</div>
+</div>
+
+<div class="overflow-hidden">
+<div class="container space-bottom-2 space-top-2 space-top-lg-3">
+<div class="position-relative">
+<div class="bg-light text-center rounded p-4 p-md-7">
+<div class="mb-4">
+<img class="rounded-circle max-w-9rem max-w-md-10rem mx-auto" src="images/krystof.jpg" alt="Kryštof Zeman">
+</div>
+
+<div class="w-md-80 w-lg-50 mx-md-auto mb-6">
+<blockquote class="lead text-dark">We are using the Screenshot API to capture the display of ads on our website. It is cheap, with high limits of request, integration is simple.</blockquote>
+</div>
+
+
+<div class="w-lg-50 mx-lg-auto">
+<h4 class="mb-0">Kryštof Zeman</h4>
+<small>Software Development Professional</small>
+</div>
+
+</div>
+
+<figure class="max-w-15rem w-100 position-absolute bottom-0 left-0">
+<div class="mb-n7 ml-n7">
+<img class="img-fluid" src="fonts/dots-1.svg" alt="Image Description">
+</div>
+</figure>
+
+</div>
+</div>
+</div>
+<div class="overflow-hidden">
+<div class="container">
+<div class="row justify-content-lg-between align-items-lg-center">
+<div class="col-lg-6 mb-9 mb-lg-0">
+<img src="images/build_with_promptapi.jpg" alt="Build with Prompt API" class="w-100 fluid">
+</div>
+<div class="col-lg-5">
+<div class="mb-5">
+<h2>Build with Prompt API</h2>
+</div>
+
+<ul class="step step-dashed mb-7">
+<li class="step-item">
+<div class="step-content-wrapper">
+<span class="step-icon step-icon-xs step-icon-soft-primary">1</span>
+<div class="step-content">
+<h3 class="h4">We provide the APIs</h3>
+<p><a href="/marketplace">We've carefully selected</a> best-in-class APIs in the market. We monitor, scale and secure them.</p>
+</div>
+</div>
+</li>
+<li class="step-item mb-0">
+<div class="step-content-wrapper">
+<span class="step-icon step-icon-xs step-icon-soft-primary">2</span>
+<div class="step-content">
+<h4>You build the next big thing</h4>
+<p class="mb-0">We provide 99.98% uptime. This is why 3500+ software developers all around the world trust us.</p>
+</div>
+</div>
+</li>
+</ul>
+
+<div class="mt-2">
+<a class="btn btn-primary transition-3d-hover px-4" href="javascript:;" data-next-url="/marketplace">Start Building</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container space-top-1 space-top-lg-1">
+
+<div class="w-md-80 w-lg-60 text-center mx-md-auto mb-5 mb-md-9">
+<h2>Read our latest articles</h2>
+<p>Have you checked our blog? We provide tips and tricks to get you started fast.</p>
+</div>
+
+<div class="row mx-n2 mb-5 mb-md-9">
+<div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0">
+<a class="card h-100 transition-3d-hover" href="/blog/article/create-rest-api-in-laravel-with-authentication-using-passport">
+<img class="card-img-top" src="images/laravel2.png" alt="Create REST API in Laravel with authentication using Passport">
+<div class="card-body">
+<span class="d-block small font-weight-bold text-cap mb-2">ARTICLE</span>
+<h5 class="mb-0">Create REST API in Laravel with authentication using Passport</h5>
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0">
+<a class="card h-100 transition-3d-hover" href="/blog/article/working-with-apis-in-flutter">
+<img class="card-img-top" src="images/flutter.png" alt="Working with APIs in Flutter">
+<div class="card-body">
+<span class="d-block small font-weight-bold text-cap mb-2">ARTICLE</span>
+<h5 class="mb-0">Working with APIs in Flutter</h5>
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0">
+<a class="card h-100 transition-3d-hover" href="/blog/article/building-a-serverless-rest-api-with-node-js-and-mongodb">
+<img class="card-img-top" src="images/serverless.png" alt="Building a Serverless REST API with Node.js and MongoDB">
+<div class="card-body">
+<span class="d-block small font-weight-bold text-cap mb-2">ARTICLE</span>
+<h5 class="mb-0">Building a Serverless REST API with Node.js and MongoDB</h5>
+</div>
+</a>
+</div>
+<div class="col-sm-6 col-lg-3 px-2 mb-3 mb-lg-0">
+<a class="card h-100 transition-3d-hover" href="/blog/article/service-mesh-vs-api-gateway">
+<img class="card-img-top" src="images/api2.png" alt="Service Mesh vs API Gateway">
+<div class="card-body">
+<span class="d-block small font-weight-bold text-cap mb-2">ARTICLE</span>
+<h5 class="mb-0">Service Mesh vs API Gateway</h5>
+</div>
+</a>
+</div>
+</div>
+
+<div class="position-relative z-index-2 text-center">
+<div class="d-inline-block font-size-1 border bg-white text-center rounded-pill py-3 px-4">
+Want to read more? <a class="font-weight-bold ml-3" href="/blog">Go here <span class="fas fa-angle-right ml-1"></span></a>
+</div>
+</div>
+
+</div>
+<a name="signup-form"><div id="signup-form"></div></a>
+<div class="overflow-hidden space-top-lg-2 space-bottom-lg-1">
+<div class="position-relative">
+<div class="container-fluid space-2 space-lg-0">
+<div class="row justify-content-sm-center align-items-lg-center text-center">
+<div class="col-lg-4 d-none d-lg-block">
+<div data-aos="fade-up" class="aos-init aos-animate">
+
+<div class="max-w-33rem w-100 transform-rotate-3 mr-auto">
+<div class="device device-iphone-x">
+<img class="device-iphone-x-frame" src="fonts/iphone-x.svg" alt="iPad Mockup">
+<img class="device-iphone-x-screen" src="images/live_demo_ipad.jpg" alt="Live Demo">
+</div>
+<figure class="max-w-19rem w-100 position-absolute bottom-0 right-0 z-index-n1 mr-n8 mb-n5">
+<img class="img-fluid" src="fonts/dots-2.svg" alt="Abstract Image">
+</figure>
+</div>
+
+</div>
+</div>
+<div class="col-sm-8 col-lg-4">
+
+<div class="mb-5">
+<h2 class="h1">Ready to start building?</h2>
+<p>We have free tiers available for all APIs. Credit card not needed!</p>
+</div>
+
+
+<form id="magicLinkFormMain" class="magic-link-form js-validate" novalidate="novalidate">
+<input type="hidden" name="csrf_token" value="IjM2NTFkNTUzZTIwYmVlMjMxZDlmOWQ1MzZjZWY3YmYyY2Y5YWYwNDMi.YUv1cQ.V-Jw5cE-7pQaKtc4azolo1paa1c">
+<input type="hidden" name="next" value="/marketplace">
+<label class="sr-only" for="signupSrEmail">Email</label>
+<div class="input-group">
+<input type="email" class="form-control" name="email" id="magicLinkEmailMain" placeholder="Email" aria-label="Email" required data-msg="Please enter a valid email address.">
+<div class="input-group-append">
+<button id="magicSigninEmailMain" type="button" class="magic-sign-in btn btn-block btn-primary">
+<span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+Sign In
+</button>
+</div>
+</div>
+</form>
+
+</div>
+<div class="col-lg-4 d-none d-lg-block">
+<div data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+
+<div class="max-w-33rem w-100 transform-rotate-2 ml-auto">
+<div class="device device-iphone-x">
+<img class="device-iphone-x-frame" src="fonts/iphone-x.svg" alt="iPhone Mockup">
+<img class="device-iphone-x-screen" src="images/marketplace_responsive.jpg" alt="Marketplace">
+</div>
+<figure class="max-w-19rem w-100 position-absolute top-0 left-0 z-index-n1 mt-n5 ml-n5">
+<img class="img-fluid" src="fonts/dots-2.svg" alt="Abstract Image">
+</figure>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="d-none d-lg-block bg-light content-centered-y w-100 h-75 z-index-n1"></div>
+</div>
+</div>
+
+<div class="container space-bottom-2 space-top-1 space-top-lg-2">
+<div class="text-center py-6" style="background: url(fonts/abstract-shapes-19.svg) center no-repeat;">
+<h2>Not decided yet?</h2>
+<p>Why don't you just have a look at our API catalog and see how may help you with your business.</p>
+<span class="d-block mt-5">
+<a class="btn btn-primary transition-3d-hover" href="/marketplace">Explore by Category</a>
+</span>
+</div>
+</div>
+
+</main>
+
+
+<footer class="bg-light">
+<div class="container">
+<div class="border-top space-2">
+<div class="row justify-content-lg-between">
+<div class="col-lg-3 ml-lg-auto mb-5 mb-lg-0">
+
+<div class="mb-4">
+<a href="/index" aria-label="Prompt API">
+<img class="brand" src="images/logo.png" alt="Prompt API | Hassle Free API Marketplace">
+</a>
+</div>
+
+
+<ul class="nav nav-sm nav-x-0 flex-column">
+<li class="nav-item">
+<a class="nav-link media" href="https://goo.gl/maps/nwydyforP1UHeBuw9" target="_blank" rel="nofollow">
+<span class="media">
+<span class="fas fa-location-arrow mt-1 mr-2"></span>
+<span class="media-body">
+Sepapaja 6 15551 Tallinn, Estonia
+</span>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link media" href="mailto:hello@promptapi.com" rel="nofollow">
+<span class="media">
+<span class="fas fa-envelope-open mt-1 mr-2"></span>
+<span class="media-body">
+hello@promptapi.com
+</span>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link media" href="tel:+372 602 3548">
+<span class="media">
+<span class="fas fa-phone mt-1 mr-2"></span>
+<span class="media-body">
++372 602 3548
+</span>
+</span>
+</a>
+</li>
+</ul>
+
+</div>
+<div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+<h5>Company</h5>
+
+<ul class="nav nav-sm nav-x-0 flex-column">
+<li class="nav-item"><a class="nav-link" href="/about-us">About Us</a></li>
+<li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+<li class="nav-item"><a class="nav-link" href="/versus-rapidapi">Prompt API vs RapidAPI</a></li>
+</ul>
+
+</div>
+<div class="col-6 col-md-3 col-lg mb-5 mb-lg-0">
+<h5>Features</h5>
+
+<ul class="nav nav-sm nav-x-0 flex-column">
+<li class="nav-item"><a class="nav-link" href="https://status.promptapi.com/" target="_blank" rel="nofollow">Service Status</a></li>
+</ul>
+
+</div>
+<div class="col-6 col-md-3 col-lg">
+<h5>Documentation</h5>
+
+<ul class="nav nav-sm nav-x-0 flex-column">
+<li class="nav-item"><a class="nav-link" href="/support">Support</a></li>
+<li class="nav-item"><a class="nav-link" href="/docs">Docs</a></li>
+<li class="nav-item"><a class="nav-link" href="/docs/faq">FAQ</a></li>
+<li class="nav-item"><a class="nav-link" href="/docs/write-for-us">Write for Us</a></li>
+</ul>
+
+</div>
+<div class="col-6 col-md-3 col-lg">
+<h5>Resources</h5>
+
+<ul class="nav nav-sm nav-x-0 flex-column">
+<li class="nav-item">
+<a class="nav-link" href="/support">
+<span class="media align-items-center">
+<i class="fa fa-info-circle mr-2"></i>
+<span class="media-body">Help</span>
+</span>
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://github.com/promptapi" target="_blank" rel="nofollow">
+<span class="media align-items-center">
+<i class="fab fa-osi mr-2"></i>
+<span class="media-body">Open Source</span>
+</span>
+</a>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+<hr class="my-0">
+<div class="space-1">
+<div class="row align-items-md-center mb-7">
+<div class="col-md-6 mb-4 mb-md-0">
+
+<ul class="nav nav-sm nav-x-0 align-items-center">
+<li class="nav-item">
+<a class="nav-link" href="/privacy">Privacy &amp; Policy</a>
+</li>
+<li class="nav-item opacity mx-3">/</li>
+<li class="nav-item">
+<a class="nav-link" href="/terms">Terms</a>
+</li>
+<li class="nav-item opacity mx-3">/</li>
+<li class="nav-item">
+<a class="nav-link" href="https://promptapi.com/docs/article/gdpr-compliance">GDPR Compliance</a>
+</li>
+</ul>
+
+</div>
+<div class="col-md-6 text-md-right">
+<ul class="list-inline mb-0">
+
+<li class="list-inline-item">
+<a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.facebook.com/promptapi/" rel="nofollow">
+<i class="fab fa-facebook-f"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-xs btn-icon btn-soft-secondary" href="https://www.linkedin.com/company/promptapi/" rel="nofollow">
+<i class="fab fa-linkedin"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-xs btn-icon btn-soft-secondary" href="https://twitter.com/promptapi/" rel="nofollow">
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-xs btn-icon btn-soft-secondary" href="https://github.com/promptapi" rel="nofollow">
+<i class="fab fa-github"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-xs btn-icon btn-soft-secondary" href="https://gitlab.com/promptapi" rel="nofollow">
+<i class="fab fa-gitlab"></i>
+</a>
+</li>
+
+</ul>
+</div>
+</div>
+
+<div class="w-md-75 text-lg-center mx-lg-auto">
+<p class="text-muted small">© Prompt API. 2020 Elevate Studio OÜ. All rights reserved.</p>
+<p class="text-muted small">When you visit or interact with our sites, services or tools, we or our authorised service providers may use cookies for storing information to help provide you with a better, faster and safer experience and for marketing purposes.</p>
+</div>
+
+</div>
+</div>
+</footer>
+
+
+
+<div class="grt-cookie grt-cookie-active" style="color: rgb(51, 51, 51); background: rgb(255, 193, 7);">
+<div class="grt-cookies-msg">
+<p>
+We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you accept and understand our <a href="/privacy">Privacy Policy</a>, and our <a href="/terms">Terms of Service</a>.
+</p>
+</div>
+<span class="grt-cookie-button" style="margin-right: 80px; background: rgb(51, 51, 51); color: rgb(255, 255, 255);">Accept</span>
+</div>
+
+
+<aside id="sidebarContent" class="hs-unfold-content sidebar hs-unfold-content-initialized hs-unfold-css-animation animated fadeInRight hs-unfold-hidden" data-hs-target-height="0" data-hs-unfold-content data-hs-unfold-content-animation-in="fadeInRight" data-hs-unfold-content-animation-out="fadeOutRight" style="animation-duration: 300ms;" afteropen="signInCallback">
+<div class="sidebar-scroller">
+<div class="sidebar-container">
+<div class="sidebar-footer-offset" style="padding-bottom: 7rem;">
+
+<div class="d-flex justify-content-end align-items-center pt-4 px-4">
+<div class="hs-unfold">
+<a class="js-hs-unfold-invoker btn btn-icon btn-xs btn-soft-secondary" href="javascript:;" data-hs-unfold-options="{
+                  &quot;target&quot;: &quot;#sidebarContent&quot;,
+                  &quot;type&quot;: &quot;css-animation&quot;,
+                  &quot;animationIn&quot;: &quot;fadeInRight&quot;,
+                  &quot;animationOut&quot;: &quot;fadeOutRight&quot;,
+                  &quot;hasOverlay&quot;: &quot;rgba(55, 125, 255, 0.1)&quot;,
+                  &quot;smartPositionOff&quot;: true
+                }" data-hs-unfold-target="#sidebarContent" data-hs-unfold-invoker>
+<svg width="10" height="10" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+<path fill="currentColor" d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"/>
+</svg>
+</a>
+</div>
+</div>
+
+
+<div class="scrollbar sidebar-body">
+<div class="sidebar-content py-4 px-7">
+<form id="magicLinkForm" class="js-validate" novalidate="novalidate">
+<input type="hidden" name="csrf_token" value="IjM2NTFkNTUzZTIwYmVlMjMxZDlmOWQ1MzZjZWY3YmYyY2Y5YWYwNDMi.YUv1cQ.V-Jw5cE-7pQaKtc4azolo1paa1c">
+<input type="hidden" name="next" value>
+
+<div id="loginSidebar" style="animation-duration: 400ms; opacity: 1;" data-hs-show-animation-target-group="idForm">
+
+<div class="text-center mb-7">
+<h3 class="mb-0">Join Prompt API</h3>
+<p>Start by choosing an account or email you use.</p>
+</div>
+
+<a id="googleSignIn" class="btn btn-sm btn-outline-primary btn-block mb-2 border" href="#">
+<span class="d-flex justify-content-center align-items-center">
+<img class="mr-2" src="images/img17.png" alt="Sign in with Google" width="14" height="14">
+ Sign In with Google
+</span>
+</a>
+<a class="btn btn-sm btn-outline-primary btn-block mb-2 border btn-github" href="/oauth/github" rel="nofollow">
+<span class="d-flex justify-content-center align-items-center">
+<i class="fab fa-github mr-2 text-dark"></i>
+Sign in with Github
+</span>
+</a>
+<div class="text-center mb-3">
+<span class="divider divider-xs divider-text">OR</span>
+</div>
+
+<div class="js-form-message mb-4 text-center pt-3">
+<label class="input-label">Use the magic link</label>
+<div class="input-group input-group-sm mb-2">
+<input type="email" class="form-control text-center" name="email" id="magicLinkEmail" placeholder="Email" aria-label="Email" required data-msg="Please enter a valid email address.">
+</div>
+</div>
+
+<div class="mb-3">
+<button id="magicSigninEmail" type="button" class="btn btn-sm btn-primary btn-block">
+<span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+Continue with Email
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+
+<footer class="sidebar-footer border-top py-2 px-7">
+<ul class="nav nav-sm">
+<li class="nav-item">
+<a class="nav-link pl-0" href="/privacy">Privacy</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/terms">Terms</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="/about-us">
+<i class="fas fa-info-circle la-lg"></i>
+</a>
+</li>
+</ul>
+</footer>
+
+</div>
+</div>
+</aside>
+
+
+
+<a class="js-go-to go-to position-fixed animated hs-go-to-prevent-event fadeInUp" href="javascript:;" style="right: 15px; bottom: 15px;" data-hs-go-to-options="{
+      &quot;offsetTop&quot;: 700,
+      &quot;position&quot;: {
+        &quot;init&quot;: {
+          &quot;right&quot;: 15
+        },
+        &quot;show&quot;: {
+          &quot;bottom&quot;: 15
+        },
+        &quot;hide&quot;: {
+          &quot;bottom&quot;: -15
+        }
+      }
+    }">
+<i class="fas fa-angle-up"></i>
+</a>
+
+
+<script src="js/vendors.js" type="text/javascript"></script>
+<script src="js/base.js" type="text/javascript"></script>
+<script src="js/api_client.js" type="text/javascript" gapi_processed="true"></script>
+
+<script type="text/javascript">
+  window.signedin = false;
+  window.google_signin_client_id = "918427652626-8890ujna0olmp3mpuoms502b2uul2vug.apps.googleusercontent.com"
+  window.csrf_token = 'IjM2NTFkNTUzZTIwYmVlMjMxZDlmOWQ1MzZjZWY3YmYyY2Y5YWYwNDMi.YUv1cQ.V-Jw5cE-7pQaKtc4azolo1paa1c'
+  </script>
+<script src="js/oauth.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+    $(document).on('ready', function () {
+      NProgress.start();
+      init_cookie_consent();
+      init_slick_carousel();
+      init_rest();
+
+      
+      
+      
+
+      
+
+      startApp();
+      
+  
+
+      NProgress.done();      
+    });
+  </script>
+
+<script type="text/javascript">
+    if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="/assets/vendor/polifills.js"><\/script>');
+  </script>
+<script async type="text/javascript" src="js/klaviyo.js"></script>
+<script type="text/javascript">
+    var _learnq = _learnq || [];
+  </script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6930b5a27c2b32a9',m:'QsqhsIFSLAmGqO_urqMCjQEkcNGkymt6ddmz6V_.ejg-1632367985-0-AR1D9daltV2thA0ucj3xykxTLbsN8Zp2lndoI2iCiBJ86UmbtQA1EU/ELN5kL/puBcC1DXhDO4PV9HOBDEiBnEVoWPRhboBpYEhpJeZF03Tl7jVVTd27ra4KV8Lz6nlOzw==',s:[0x5cc269fcdd,0xab8a02a10b],}})();</script>
+<div class="hs-unfold-overlay"></div><iframe id="ssIFrame_google" sandbox="allow-scripts allow-same-origin" aria-hidden="true" frame-border="0" src="iframe.html#origin=https%3A%2F%2Fpromptapi.com&amp;rpcToken=2082181160.3757606&amp;clearCache=1" style="position: absolute; width: 1px; height: 1px; left: -9999px; top: -9999px; right: -9999px; bottom: -9999px; display: none;"></iframe>
+<script type="text/javascript" id>!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","201336167864085");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="tr"></noscript>
+
+<script type="text/javascript" id>!function(d,e,f,a,b,c){d.twq||(a=d.twq=function(){a.exe?a.exe.apply(a,arguments):a.queue.push(arguments)},a.version="1.1",a.queue=[],b=e.createElement(f),b.async=!0,b.src="//static.ads-twitter.com/uwt.js",c=e.getElementsByTagName(f)[0],c.parentNode.insertBefore(b,c))}(window,document,"script");twq("init","o43t6");twq("track","PageView");</script>
+<script src="adsct" type="text/javascript"></script></body></html>
